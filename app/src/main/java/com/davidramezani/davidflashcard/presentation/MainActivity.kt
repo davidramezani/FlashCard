@@ -1,4 +1,4 @@
-package com.davidramezani.davidflashcard
+package com.davidramezani.davidflashcard.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,7 +10,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.davidramezani.davidflashcard.ui.theme.DavidFlashCardTheme
+import com.davidramezani.davidflashcard.presentation.ui.theme.DavidFlashCardTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

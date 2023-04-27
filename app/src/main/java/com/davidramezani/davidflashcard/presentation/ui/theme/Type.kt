@@ -1,4 +1,4 @@
-package com.davidramezani.davidflashcard.ui.theme
+package com.davidramezani.davidflashcard.presentation.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
