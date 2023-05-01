@@ -17,6 +17,6 @@ interface WordDao {
     @Delete
     suspend fun deleteWord(wordEntity: WordEntity)
 
-    @Query("SELECT * FROM word WHERE categoryId = :categoryId")
+    @Query("SELECT * FROM word WHERE category_id = :categoryId")
     fun getWordsByCategory(categoryId : Int) : Flow<List<WordEntity>>
 }
